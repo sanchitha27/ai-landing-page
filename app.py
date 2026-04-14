@@ -70,8 +70,8 @@ if st.button("Generate"):
             page = get_page_content(url)
             result = generate_output(ad_input, page)
 
-        # 🌐 ORIGINAL PAGE
-        st.subheader("🌐 Original Landing Page (Preview)")
+        #  ORIGINAL PAGE
+        st.subheader(" Original Landing Page (Preview)")
         st.write(page[:500] + "...")
 
         st.divider()
